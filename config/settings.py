@@ -166,3 +166,5 @@ LOGIN_URL = "/users/login"
 # Locale
 
 LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
+
+ALLOWED_HOSTS = ["airbnb-clone.eba-qg6ua3xu.ap-northeast-2.elasticbeanstalk.com"]
