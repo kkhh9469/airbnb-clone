@@ -17,12 +17,10 @@ django-seed = "*"
 django-dotenv = "*"
 requests = "*"
 pipenv-to-requirements = "*"
+psycopg2 = 2.8.6
 
 [requires]
 python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
-
-[postgreSQL]
-psycopg2 = 2.8.6
