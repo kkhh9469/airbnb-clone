@@ -23,3 +23,6 @@ python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
+
+[postgreSQL]
+psycopg = 2.8.6
