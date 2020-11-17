@@ -19,7 +19,6 @@ django-dotenv = "*"
 requests = "*"
 pipenv-to-requirements = "*"
 psycopg2-binary = "*"
-psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
