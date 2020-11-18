@@ -26,8 +26,8 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    u".elasticbeanstalk.com",
-    u"airbnb-clone-test.eba-zypek5yp.ap-northeast-2.elasticbeanstalk.com",
+    "elasticbeanstalk.com",
+    "airbnb-clone-test.eba-zypek5yp.ap-northeast-2.elasticbeanstalk.com",
 ]
 
 
