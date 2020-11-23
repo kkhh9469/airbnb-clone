@@ -177,4 +177,5 @@ if not DEBUG:
         dsn=os.environ.get("SENTRY_URL"),
         integrations=[DjangoIntegration()],
         traces_sample_rate=1.0,
+        send_default_pii=True,
     )
