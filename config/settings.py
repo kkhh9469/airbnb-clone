@@ -189,4 +189,7 @@ if not DEBUG:
         integrations=[DjangoIntegration()],
         traces_sample_rate=1.0,
         send_default_pii=True,
+        ignore_errors=["django.security.DisallowedHost"],
     )
+
+    sentry_sdk.integrations.logging.ignore_logger("django.security.DisallowedHost")
