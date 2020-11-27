@@ -158,7 +158,7 @@ def kakao_callback(request):
     try:
         code = request.GET.get("code")
         client_id = os.environ.get("KAKAO_ID")
-        redirect_uri = "http://127.0.0.1:8000/users/login/kakao/callback"
+        redirect_uri = "http://airbnb-clone-test.eba-zypek5yp.ap-northeast-2.elasticbeanstalk.com/users/login/kakao/callback"
         token_requenst = requests.get(
             f"https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id={client_id}&redirect_uri={redirect_uri}&code={code}"
         )
